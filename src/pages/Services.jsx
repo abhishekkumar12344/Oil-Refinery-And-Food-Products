@@ -1,5 +1,4 @@
-import React from 'react';
-import './services.css';
+import './Services.css';
 import { FaIndustry, FaShippingFast, FaHandshake, FaShieldAlt } from 'react-icons/fa';
 
 const services = [
