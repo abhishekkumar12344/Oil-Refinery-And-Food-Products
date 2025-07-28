@@ -1,0 +1,122 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: black ;
+}
+
+/* Hero */
+.hero {
+  background-image: url('https://imgs.search.brave.com/PI-OMg0ODHtkYj_goMTaH1lgM-1bswfWxq2ZEdVN00I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hYnN0/cmFjdC1vaWwtYmFj/a2dyb3VuZC1hYnN0/cmFjdC1vaWwtYmFj/a2dyb3VuZC1jcmVh/dGVkLWFydGlmaWNp/YWwtaW50ZWxsaWdl/bmNlLWFpLWdlbmVy/YXRlZC0zMjU1NDEw/ODkuanBn');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+ 
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+ color: black;
+}
+
+.section-btn {
+  display: inline-block;
+  background-color: #ff8800;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 10px;
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.section-btn:hover {
+  background-color: #e06b00;
+}
+
+/* About, Services, Products, Testimonials, CTA */
+.about,
+.services,
+.products,
+.testimonials,
+.cta {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.product-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  width: 250px;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product-btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.product-btn:hover {
+  background-color: #004999;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonials cite {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.cta p {
+  margin: 10px 0 20px;
+}
