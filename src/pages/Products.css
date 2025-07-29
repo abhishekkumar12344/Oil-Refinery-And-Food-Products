@@ -9,11 +9,12 @@
 }
 
 .product-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-              url('https://images.unsplash.com/photo-1581092915271-dabd36a3f909') center/cover no-repeat;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://imgs.search.brave.com/DP2NUFElrPTlkKSAxCmZVQr-ec0HG7JHJNqxf0s58ao/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTYv/MjY1LzI4NS9zbWFs/bC9vaWwtZHJvcHMt/dGV4dHVyZS1vbWVn/YS1idWJibGVzLWdv/bGQtbGlxdWlkLWZy/ZWUtdmVjdG9yLmpw/Zwcd ') center/cover no-repeat;
   padding: 80px 20px;
   color: #fff;
   text-align: center;
+ 
 }
 
 .product-hero h1 {
