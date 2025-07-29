@@ -10,42 +10,68 @@ const Products = () => {
   }, []);
 
   const products = [
-    {
-      id: 1,
-      name: 'Refined Sunflower Oil',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2022/10/SE/XO/IM/15331838/refined-sunflower-oil.jpeg',
-      description: 'High-quality, heart-healthy oil ideal for cooking and frying.'
-    },
-    {
-      id: 2,
-      name: 'Pure Mustard Oil',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2021/8/OT/YO/NZ/103003054/engine-brand-mustard-oil.jpg',
-      description: 'Traditional mustard oil with a strong aroma, perfect for Indian cuisine.'
-    },
-    {
-      id: 3,
-      name: 'Premium Ghee',
-      image: 'https://www.jiomart.com/images/product/original/490000516/patanjali-cow-s-ghee-1-l-product-images-o490000516-p590180218-0-202203141738.jpg',
-      description: 'Pure cow ghee rich in aroma and taste, used for cooking and puja.'
-    },
-    {
-      id: 4,
-      name: 'Desi Chana Sattu',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2023/9/341265963/XH/AG/QO/84019979/chana-sattu.jpg',
-      description: 'Nutritious sattu made from roasted chana, perfect for energy drinks.'
-    },
-    {
-      id: 5,
-      name: 'Soybean Oil',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2021/4/BC/XT/FJ/124102731/refined-soybean-oil.jpg',
-      description: 'Refined soybean oil rich in polyunsaturated fats.'
-    },
-    {
-      id: 6,
-      name: 'Groundnut Oil',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2023/7/328061051/WE/ZD/VU/94112026/groundnut-oil.jpg',
-      description: 'Natural groundnut oil with high smoke point, suitable for deep frying.'
-    }
+  
+  {
+    name: 'High-Grade Diesel',
+    image: 'https://imgs.search.brave.com/hy9OC3iBjPPRwoePEeUgkQUBd693-fsAj93VknKB_mQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzg5LzI0LzQ0/LzM2MF9GXzg5MjQ0/NDMzX3pGM0xKdHI2/cjBGdE9RWHVGSnVP/cTRUZ2JGbEVXb1RN/LmpwZw',
+    description: 'Fuel efficiency and reduced emissions for vehicles and industries.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://imgs.search.brave.com/sVMG-SM5ffnsvzYGyXcnesO7davQWlI1zZsnBdnWHGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM4/MzgxMzkyMi9waG90/by9mdWVsLWZpbGxp/bmctdXAtZnJvbS1h/LWdhc29saW5lLXB1/bXAtM2QtcmVuZGVy/aW5nLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1RUmdYUWow/RWpfVnVDSFpJQ0Vl/RDFrd2d4MEVjOURr/cS04RlB5b2czV3E0/PQ',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Industrial Lubricants',
+    image: 'https://imgs.search.brave.com/MCZHacQSoC476_zGefu0OqqmTyuxV1WoEmJ8f8qn-6Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzg5Lzg5LzI1/LzM2MF9GXzM4OTg5/MjU2MV9uYW5oVzFC/Q3c2TnhkVWJOVXBW/UWlGZzM5YzJCcUZj/VC5qcGc',
+    description: 'Advanced lubrication solutions for machinery and engines.',
+  },
+  {
+    name: 'Pure Desi Ghee',
+    image: 'https://imgs.search.brave.com/mKQdwruaY_1qQ5By-TbggTqFrL7WJLo4anRWh9AxoW8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzAyLzE5LzY2/LzM2MF9GXzMwMjE5/NjY3MF95Vmk5cG5H/NU45MTVCOE82cTVY/MFBtWWp3Q0ZNOVZ0/eC5qcGc',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Premium Petrol',
+    image: 'https://imgs.search.brave.com/sVMG-SM5ffnsvzYGyXcnesO7davQWlI1zZsnBdnWHGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM4/MzgxMzkyMi9waG90/by9mdWVsLWZpbGxp/bmctdXAtZnJvbS1h/LWdhc29saW5lLXB1/bXAtM2QtcmVuZGVy/aW5nLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1RUmdYUWow/RWpfVnVDSFpJQ0Vl/RDFrd2d4MEVjOURr/cS04RlB5b2czV3E0/PQ',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Industrial Lubricants',
+    image: 'https://imgs.search.brave.com/MCZHacQSoC476_zGefu0OqqmTyuxV1WoEmJ8f8qn-6Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzg5Lzg5LzI1/LzM2MF9GXzM4OTg5/MjU2MV9uYW5oVzFC/Q3c2TnhkVWJOVXBW/UWlGZzM5YzJCcUZj/VC5qcGc',
+    description: 'Advanced lubrication solutions for machinery and engines.',
+  },{
+    name: 'Premium Petrol',
+    image: 'https://imgs.search.brave.com/sVMG-SM5ffnsvzYGyXcnesO7davQWlI1zZsnBdnWHGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM4/MzgxMzkyMi9waG90/by9mdWVsLWZpbGxp/bmctdXAtZnJvbS1h/LWdhc29saW5lLXB1/bXAtM2QtcmVuZGVy/aW5nLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1RUmdYUWow/RWpfVnVDSFpJQ0Vl/RDFrd2d4MEVjOURr/cS04RlB5b2czV3E0/PQ',
+    description: 'Unleaded petrol ideal for smooth and clean engine performance.',
+  },
+  {
+    name: 'Industrial Lubricants',
+    image: 'https://imgs.search.brave.com/MCZHacQSoC476_zGefu0OqqmTyuxV1WoEmJ8f8qn-6Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzg5Lzg5LzI1/LzM2MF9GXzM4OTg5/MjU2MV9uYW5oVzFC/Q3c2TnhkVWJOVXBW/UWlGZzM5YzJCcUZj/VC5qcGc',
+    description: 'Advanced lubrication solutions for machinery and engines.',
+  },
+ 
+
   ];
 
   return (
