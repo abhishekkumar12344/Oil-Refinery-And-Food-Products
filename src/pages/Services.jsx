@@ -1,5 +1,9 @@
+import React, { useEffect } from 'react';
 import './Services.css';
 import { FaIndustry, FaShippingFast, FaHandshake, FaShieldAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const services = [
   {
@@ -25,14 +29,20 @@ const services = [
 ];
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="services-container">
-      <section className="services-hero">
+      {/* Hero Section */}
+      <section className="services-hero" data-aos="fade-down">
         <h1>Our Services</h1>
         <p>We provide reliable and high-quality refinery services tailored to your needs.</p>
       </section>
 
-      <section className="services-cards">
+      {/* Service Cards */}
+      <section className="services-cards" data-aos="fade-up">
         {services.map((service, index) => (
           <div className="services-card" key={index}>
             <div className="services-icon">{service.icon}</div>
@@ -42,10 +52,11 @@ const Services = () => {
         ))}
       </section>
 
-      <section className="services-cta">
+      {/* CTA Section */}
+      <section className="services-cta" data-aos="zoom-in">
         <h2>Looking for custom solutions?</h2>
         <p>Contact us to discuss your requirements. We’ll tailor our services for you.</p>
-        <a href="/contact" className="services-cta-btn">Get in Touch</a>
+        <Link to="/contact" className="services-cta-btn">Get in Touch</Link>
       </section>
     </div>
   );
