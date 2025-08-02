@@ -64,20 +64,21 @@ const About = () => {
         <p>We are proud to be certified by national and international bodies. Click below to view each certificate:</p>
         <div className="certificate-grid">
           <div className="certificate-card" data-aos="zoom-in" data-aos-delay="100">
-            <h4>ISO 22000 Certificate</h4>
+            <h4>FSSAI APPROVAL</h4>
             <a href="/certificates/cfff1.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
           </div>
           <div className="certificate-card" data-aos="zoom-in" data-aos-delay="200">
-            <h4>FSSAI Approval</h4>
-            <a href="/certificates/fssai.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+            <h4>UDYAM REGISTRATION CERTIFICATE</h4>
+            <a href="/certificates/Udyam.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
           </div>
           <div className="certificate-card" data-aos="zoom-in" data-aos-delay="300">
-            <h4>MSME Registration</h4>
-            <a href="/certificates/msme.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+            <h4>GST REGISTRATION CERTIFICATE </h4>
+            <a href="/certificates/Gst.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
           </div>
           <div className="certificate-card" data-aos="zoom-in" data-aos-delay="400">
-            <h4>Environmental Compliance</h4>
-            <a href="/certificates/environmental.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+            
+            <h4>LABOUR RESOURCES DEPARTMENT CERTIFICATE</h4>
+            <a href="/certificates/Labour.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
           </div>
         </div>
       </section>
